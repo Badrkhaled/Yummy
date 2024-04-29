@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- Primary Meta Tags -->
+        <title>Yummy</title>
+        <meta name="title" content="Yummy
+        " />
+        <meta name="description"
+            content="an e-commerce provide many products" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://Yummy
+        .com" />
+        <meta property="og:title" content="Yummy
+        " />
+        <meta
+            property="og:description"
+            content="an e-commerce provide many products" />
+        <meta
+            property="og:image"
+            content="https://metatags.io/images/meta-tags.png" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://Yummy
+        .com" />
+        <meta
+            property="twitter:description"
+            content="an e-commerce provide many products" />
+        <meta
+            property="twitter:image"
+            content="https://metatags.io/images/meta-tags.png" />
+
+        <link rel="icon" href />
+
+        <!-- ^===========> Font awesome library Icon -->
+        <link rel="stylesheet" href="./CSS/all.min.css" />
+        <!-- ^===========> Animate.CSS  -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- ^===========> Bootstrap  -->
+        <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+        <!-- *===========> Main Stylesheet  -->
+        <link rel="stylesheet" href="./CSS/style.css" />
+    </head>
+    <body data-bs-spy="scroll" class="bg-black overflow-auto">
+        <div class="container w-75">
+            <div class="row py-4 " id="search">
+
+            </div>
+        </div>
+        <main
+            class="d-flex flex-column w-100  ">
+            <section
+                class="allnav d-flex justify-content-center align-items-center position-fixed vh-100 top-0 rounded-start-3   ">
+
+                <div
+                    id="sideNav"
+                    class="side z-3 d-flex flex-column fs-6 align-items-start pb-2 justify-content-start position-relative ">
+                    <ul id="leftMenu"
+                        class="sidenav position-relative  ">
+
+                        <li><a class="fs-6 position-relative" id="Search"
+                                style="top: 0px;">Search</a></li>
+                        <li><a class="fs-6 position-relative" id="Categories"
+                                style="top: 0px;">Categories</a></li>
+                        <li><a class="fs-6 position-relative" id="Area"
+                                style="top: 0px;">Area</a></li>
+                        <li><a class="fs-6 position-relative" id="Ingredients"
+                                style="top: 0px;">Ingredients</a></li>
+                        <li><a class="fs-6 position-relative" id="Contact"
+                                style="top: 0px;"
+                                onclick="showContacts()">Contact US</a></li>
+                    </ul>
+                    <div class="nav-footer  text-white">
+                        <div class="icons ">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="footer">
+                            <p>Copyright Â© 2019 All Rights
+                                <br>Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="home-content"
+                    class="d-flex flex-column justify-content-between h-100 text-center bg-white position-fixed">
+                    <span><img src="images/logo.png" alt></span>
+                    <div class="replace text-center">
+                        <span style="font-size:30px;cursor:pointer"
+                            class="openNav  fw-bold"><i
+                                class="fa-solid fa-bars icon"></i></span>
+
+                    </div>
+                    <div class="fs-6 d-flex flex-column g-2">
+                        <i class="fa-solid fa-globe"></i>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <div
+                class="loading-screen z-3 vh-100 w-100 position-fixed bg-black justify-content-center align-items-center">
+                <span class="loader "></span></div>
+
+            <section class=" container bg-black vh-100">
+                <div id="home-data"
+                    class="homeData row g-4 py-5"></div>
+
+            </section>
+            <div class="mealOverlay">
+
+            </div>
+        </main>
+
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
